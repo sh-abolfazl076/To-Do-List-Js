@@ -1,0 +1,72 @@
+body{
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+header,main,footer{
+    border: 1px solid black;
+    padding: 30px;
+    /* margin-bottom: 20px; */
+}
+
+
+h1,h2{
+    color: blue;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#search-form input{
+    width: 95%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.to-do-list{
+    
+    list-style-type:none
+    
+}
+
+.to-do-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5px;
+}
+
+
+.del-btn{
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.del-btn:hover{
+    background-color: blueviolet;
+    transform: translateY(-2px);
+}
+
+
+
+#add-form input{
+    width: 82%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#add-form button{
+    background-color: white;
+    border: 3px solid blue;
+    /* color: white; */
+    padding: 8px;
+    border-radius: 10px; 
+}
+#add-form button:hover{
+    background-color: blueviolet;
+    transform: translateY(-2px);
+}
+
